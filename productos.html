@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>productos</title>
+
+    <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="css_smartcart" href="vendors/jquery_smart.cart/css/smart_cart.min.css">
+
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+        <div class="container">
+            <a href="index.html">
+                <img src="img/laolachica.png" alt="Logo" class="navbar-logo">
+            </a>
+            <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavId">
+                <ul class="navbar-nav ms-auto mt-2 mt-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="quienes-somos.html">Quienes Somos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="productos.html" aria-current="page">Productos
+                            <span class="visually-hidden">(actual)</span></a>
+
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="preguntas-frecuentes.html">Preguntas Frecuentes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contacto.html">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <section id="sec" class="py-2">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-6 mb-2">
+                    <div class="p-3">
+                        <h2>mira nuestro menú</h2>
+                    </div>
+                </div>
+
+
+
+                <div class="text-dark">
+                    <div class="container py-2 my-2">
+                        <div class="row">
+                            <div class="col-md-9">
+                                <div class="row" id="catalogo">
+
+                                    <!-- producto 1 -->
+                                    <div class="col-12 col-md-4 mb-5">
+                                        <div class="sc-product-item">
+                                            <img class="img-fluid" data-name="product_image"
+                                                src="img/productos/Torta-queso-1.png" alt="Producto 1">
+                                            <h4 data-name="product_name">Torta de queso</h4>
+                                            <p data-name="product_desc">Torta elaborada con una selección especial de
+                                                quesos,
+                                                cremosa y
+                                                con una cocción perfecta en el centro. Un clásico que no podes dejar de
+                                                probar.
+                                                Perfecta
+                                                para acompañar cualquier almuerzo.</p>
+                                            <input name="product_price" value="25000" />
+                                            <!-- PRODUCT ID, identified by name="product_id" or can be an element with data-name="product_id"-->
+                                            <input name="product_id" value="12" type="hidden" />
+                                            <button class="sc-add-to-cart btn btn-success">agregar</button>
+
+                                        </div>
+                                        <!-- fin producto 1 -->
+
+                                        <!-- producto 2 -->
+                                    </div>
+                                    <div class="col-12 col-md-4 mb-5">
+                                        <div class="sc-product-item">
+                                            <img class="img-fluid" data-name="product_image"
+                                                src="img/productos/Tortas-carrot-2.png" alt="Producto 2">
+                                            <h4 data-name="product_name">Carrot cake</h4>
+                                            <p data-name="product_desc">Bizcocho especiado de zanahoria con buttercream
+                                                de queso
+                                                y
+                                                vainilla, coronado con nueces caramelizadas.¡Nuestro best seller!
+                                                Perfecto para
+                                                cualquier ocasión.</p>
+                                            <input name="product_price" value="30000" />
+                                            <button class="sc-add-to-cart btn btn-success">agregar</button>
+                                        </div>
+                                        <!-- fin producto 2 -->
+
+
+                                        <!-- producto 3 -->
+                                    </div>
+                                    <div class="col-12 col-md-4 mb-5">
+                                        <div class="sc-product-item">
+                                            <img class="img-fluid" data-name="product_image"
+                                                src="img/productos/Tortas-pavlova-3.png" alt="Producto 1">
+                                            <h4 data-name="product_name">Pavlova de frambuesas</h4>
+                                            <p data-name="product_desc">Disco de merengue crocante, crema de frutos
+                                                rojos y
+                                                corazon de
+                                                frambuesa. Decorada con frutos rojos de estación, frambuesa liofilizada
+                                                y menta.
+                                                Gluten
+                                                free. Fresca, liviana, perfecta para postre.</p>
+                                            <input name="product_price" value="30000" />
+                                            <!-- PRODUCT ID, identified by name="product_id" or can be an element with data-name="product_id"-->
+                                            <input name="product_id" value="12" type="hidden" />
+                                            <button class="sc-add-to-cart btn btn-success">agregar</button>
+                                        </div>
+                                        <!-- fin producto 3 -->
+
+
+                                        <!-- producto 4 -->
+                                    </div>
+                                    <div class="col-12 col-md-4 mb-5">
+                                        <div class="sc-product-item">
+                                            <img class="img-fluid" data-name="product_image"
+                                                src="img/productos/Tortas-lemon-4.png" alt="Producto 1">
+                                            <h4 data-name="product_name">Lemon pie</h4>
+                                            <p data-name="product_desc">Base de sablé, relleno cremoso de limón,
+                                                decorada con
+                                                merengue
+                                                italiano, curd de limon y hojas de menta. Fresca, ideal para el verano.
+                                            </p>
+                                            <input name="product_price" value="30000" />
+                                            <!-- PRODUCT ID, identified by name="product_id" or can be an element with data-name="product_id"-->
+                                            <input name="product_id" value="12" type="hidden" />
+                                            <button class="sc-add-to-cart btn btn-success">agregar</button>
+                                        </div>
+                                        <!-- fin producto 4 -->
+
+
+
+                                        <!-- producto 5 -->
+                                    </div>
+                                    <div class="col-12 col-md-4 mb-5">
+                                        <div class="sc-product-item">
+                                            <img class="img-fluid" data-name="product_image"
+                                                src="img/productos/Tortas-coco-5.png" alt="Producto 1">
+                                            <h4 data-name="product_name">Torta chocolate vegan</h4>
+                                            <p data-name="product_desc">Base de dátiles y coco, crema de anacardos y
+                                                chocolate
+                                                al 70%.
+                                                Tarta de chocolate 100% vegana, gluten-free y sugar-free. Decorada con
+                                                fresas y
+                                                pistachos. Fresca y liviana.</p>
+                                            <input name="product_price" value="30000" />
+                                            <!-- PRODUCT ID, identified by name="product_id" or can be an element with data-name="product_id"-->
+                                            <input name="product_id" value="12" type="hidden" />
+                                            <button class="sc-add-to-cart btn btn-success">agregar</button>
+                                        </div>
+                                        <!-- fin producto 5 -->
+
+
+                                        <!-- producto 6 -->
+                                    </div>
+                                    <div class="col-12 col-md-4 mb-5">
+                                        <div class="sc-product-item">
+                                            <img class="img-fluid" data-name="product_image"
+                                                src="img/productos/Tortas-choco-6.png" alt="Producto 1">
+                                            <h4 data-name="product_name">Torta de chocolate y frutillas</h4>
+                                            <p data-name="product_desc">Bizcocho húmedo de chocolate con cremoso de
+                                                chocolate al
+                                                70%,
+                                                dulce de leche y centro de frambuesa. Decorado con ganache de chocolate
+                                                y
+                                                frambuesas
+                                                frescas. Balance perfecto entre lo dulce y lo ácido. Recomendada para
+                                                torta de
+                                                cumpleaños.</p>
+                                            <input name="product_price" value="25000" />
+                                            <!-- PRODUCT ID, identified by name="product_id" or can be an element with data-name="product_id"-->
+                                            <input name="product_id" value="12" type="hidden" />
+                                            <button class="sc-add-to-cart btn btn-success">agregar</button>
+                                        </div>
+                                        <!-- fin producto 6 -->
+
+
+                                        <!-- producto 7 -->
+                                    </div>
+                                    <div class="col-12 col-md-4 mb-5">
+                                        <div class="sc-product-item">
+                                            <img class="img-fluid" data-name="product_image"
+                                                src="img/productos/dulce-3.png" alt="Producto 1">
+                                            <h4 data-name="product_name">Pasta de mani</h4>
+                                            <input name="product_price" value="7000" />
+                                            <!-- PRODUCT ID, identified by name="product_id" or can be an element with data-name="product_id"-->
+                                            <input name="product_id" value="12" type="hidden" />
+                                            <button class="sc-add-to-cart btn btn-success">agregar</button>
+                                        </div>
+                                        <!-- fin producto 7 -->
+
+                                        <!-- producto 8 -->
+                                    </div>
+                                    <div class="col-12 col-md-4 mb-5">
+                                        <div class="sc-product-item">
+                                            <img class="img-fluid" data-name="product_image"
+                                                src="img/productos/dulce-1.png" alt="Producto 1">
+                                            <h4 data-name="product_name">Dulce de almendras</h4>
+                                            <input name="product_price" value="8000" />
+                                            <!-- PRODUCT ID, identified by name="product_id" or can be an element with data-name="product_id"-->
+                                            <input name="product_id" value="12" type="hidden" />
+                                            <button class="sc-add-to-cart btn btn-success">agregar</button>
+                                        </div>
+                                        <!-- fin producto 8 -->
+
+                                        <!-- producto 9 -->
+                                    </div>
+                                    <div class="col-12 col-md-4 mb-5">
+                                        <div class="sc-product-item">
+                                            <img class="img-fluid" data-name="product_image"
+                                                src="img/productos/dulce.png" alt="Producto 1">
+                                            <h4 data-name="product_name">Dulce de leche</h4>
+                                            <input name="product_price" value="7000" />
+                                            <!-- PRODUCT ID, identified by name="product_id" or can be an element with data-name="product_id"-->
+                                            <input name="product_id" value="12" type="hidden" />
+                                            <button class="sc-add-to-cart btn btn-success">agregar</button>
+                                        </div>
+                                        <!-- fin producto 9 -->
+
+                                    </div>
+
+                                    <section class="boton">
+                                        <div class="d-flex justify-contentent-start mt-3 me-3">
+                                            <a href="productos.html" class="btn btn-dark text-light">Subir</a>
+                                        </div>
+                                    </section>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div id="carrito"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+    </section>
+
+
+
+    <div class="container-fluid">
+        <div class="row d-flex py-4 bg-dark text-light">
+            <div class="container-fluid">
+                <footer class="col-12 justify-content-center align-items-center text-center">
+                    <div class="col-12 justify-content-center">
+                        <p>&copy; la ola</p>
+                    </div>
+                    <div class="col-12 justify-content-center">
+                        <p>Olivia Loffreda - Desarrollo II</p>
+                    </div>
+
+                    <div class="col-12 justify-content-center">
+                        <a href="https://www.instagram.com/">
+                            <img src="img/igblanco.png" alt="logoig">
+                        </a>
+
+                        <a href="https://ar.linkedin.com/">
+                            <img src="img/linkedinblanco.png" alt="linkedin">
+                        </a>
+
+
+                        <a href="https://web.whatsapp.com/">
+                            <img src="img/whatsapblanco.png" alt="whtasap">
+                        </a>
+
+                    </div>
+                </footer>
+
+            </div>
+
+        </div>
+
+
+
+        <script src="bootstrap/js/bootstrap.bundle.js"></script>
+
+        <!--jQuery-->
+        <script src="vendors/jquery-3.7.1.min.js"></script>
+
+        <!--Plugin SmartCart-->
+        <script src="vendors/jquery_smart.cart/js/jquery.smartCart.min.js"></script>
+
+        <!--Plugin Carrusel automatico-->
+        <script src="vendors/jquery_owl.carrusel/js/owl.carousel.js"></script>
+
+        <!--Js Productos-->
+        <script src="js/productos.js"></script>
+
+        <!--Scripts-->
+        <script src="js/scripts.js"></script>
+</body>
+
+</html>

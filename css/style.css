@@ -1,0 +1,22 @@
+
+
+.navbar-logo {
+    width: 60px; 
+    height: auto; 
+    margin-right: auto; 
+  }
+
+
+  .primera-pastilla {
+    background-image: url('../img/comunidad.png'); 
+    background-position: center; 
+    height: 100vh; 
+    display: flex;
+    align-items: center;
+    background-repeat: no-repeat;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    padding: 0;
+  }
+
